@@ -12,7 +12,7 @@
 
 from bs4 import BeautifulSoup #网页解析，获取数据
 import re #正则表达式，进行文字匹配
-# 不推荐requests
+# 推荐使用requests,urllib使用繁琐一点
 import urllib.request,urllib.error  #制定URL获取网页数据
 import requests  #制定Url获取网页数据
 import  xlwt   #进行excel操作
