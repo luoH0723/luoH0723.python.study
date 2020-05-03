@@ -54,7 +54,7 @@ def getData(elementUrl):
     #1.空数据
     dataList = []
 
-    for i in range(0,10): #调用湖区信息的函数10次
+    for i in range(0,10): #调用获取信息的函数10次
         url = elementUrl + str(i*25)
         html = askUrl(url)
         #2.逐一解析数据
